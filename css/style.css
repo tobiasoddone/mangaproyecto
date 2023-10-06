@@ -1,0 +1,76 @@
+header{
+    position:sticky ;
+    top: 0%;
+}
+section p{
+    font-family: "Times New Roman", Times, serif;   
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(235, 117, 7);
+    padding: 11px 9px 10px 10px
+}
+html{
+    font-size: 62.5;
+}
+.padre{
+    display: flex;
+    flex-direction: column;
+}  
+
+ .nombre{
+    width:100% ;
+    display: flex;
+    flex-direction: row;
+    font-family: "Arial", Helvetica, sans-serif;
+    color: rgb(238, 10, 10);
+    padding:  11px 9px 10px 10px}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 2rem;
+}
+.linksinternos{
+    width: 100%;
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+
+
+.imgInicio2{
+   display: grid;
+   grid-template-columns: repeat(3, 2fr);
+   grid-template-rows: repeat(3, 2fr);  
+    gap: 66px 53px;
+}
+.Imgemision{
+    display: grid;
+    grid-template-columns: repeat(1, 60px);
+    grid-template-rows: repeat(5, 60px);
+}
+
+
+footer{
+    background-color: black;
+    text-align: center;
+}
+
+
+@media  (min-width:330){
+    .linksinternos{ 
+             display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+   
+    
+    
+}
